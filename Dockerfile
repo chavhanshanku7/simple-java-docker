@@ -12,8 +12,8 @@ COPY src/Main.java /app/Main.java
 
 #compile the java code
 
-RUN javac Main.java
+RUN javac EmployeeGreeting.java
 
 #run the java appliation when the container starts
 
-CMD ["java","Main"]
+CMD ["java","EmployeeGreeting"]
